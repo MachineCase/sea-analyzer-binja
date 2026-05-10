@@ -1,0 +1,15 @@
+{
+    "name": "SEA Analyzer",
+    "author": "@m4xfr0m",
+    "type": ["ui"],
+    "api": ["python3"],
+    "description": "Detects and analyzes Node.js SEA blobs in Binary Ninja. Extracts embedded JavaScript and runs static analysis across 7 categories.",
+    "platforms": ["Darwin", "Windows", "Linux"],
+    "installinstructions": {
+        "Darwin": "Copy the sea_analyzer folder to ~/Library/Application Support/Binary Ninja/plugins/",
+        "Windows": "%APPDATA%\\Binary Ninja\\plugins\\",
+        "Linux": "~/.binaryninja/plugins/"
+    },
+    "version": "1.0.0",
+    "minimumbinaryninjaversion": 4000
+}
