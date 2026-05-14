@@ -1,0 +1,1 @@
+## SEA (Single Executable Application)
